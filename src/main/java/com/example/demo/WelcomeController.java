@@ -19,6 +19,7 @@ public class WelcomeController {
     @RequestMapping("/hi")
     public String welcome(Map<String,Object> map){
         map.put("message",message);
+
         return "welcome";
     }
 }
